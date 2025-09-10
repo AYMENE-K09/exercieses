@@ -1,1 +1,1 @@
-for (let i = 0; i < 4; i++) {console.log("Hello world");}
+for i in range(4):print("Hello world")
