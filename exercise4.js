@@ -1,7 +1,8 @@
-const the_needed_height = 145;
-let user_height = ParseInt(prompt("enter your height by cm: "));
-if (the_needed_height < user_height) {
-    console.log("you are tall enough to ride");
-} else {
-    console.log("you need grow some more to ride");
-}
+the_enough_height = int(145)
+user_height = int(input("enter your height by cm: "))
+
+if user_height > the_enough_height:
+    print(f"your height is {user_height}, it is enough to ride.")
+
+else:
+    print(f"your height is {user_height}, you need to grow some more to ride.")
