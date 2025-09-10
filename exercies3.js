@@ -1,7 +1,8 @@
-const the_main_name = "aymene";
-let user_name = prompt("enter your name: ");
-if (the_main_name === user_name) {
-    console.log("are we brothers or what?");
-} else {
-    console.log("done");
-}
+the_main_name = "aymene"
+user_name = input("enter your first name: ")
+
+if the_main_name == user_name:
+    print("are we brothers!!!")
+
+else:
+    print(f"nice to meet you {user_name}")
